@@ -4,6 +4,11 @@
 
 /* betty style doc for function main goes there */
 #include <stdio.h>
+/*
+ * main - assigns a randon number to int n everytime
+ * it executes, and print it
+ * Return: ALways 0 (Success)
+ */
 int main(void)
 {
 	int n;

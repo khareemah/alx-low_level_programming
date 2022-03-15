@@ -1,14 +1,14 @@
 #include "main.h"
 /**
- * main - check the code
- * Return: Always 0
+ * print_alphabet - loop from a - z
+ * Return: Always 0.
  */
-int main(void)
+void print_alphabet(void)
 {
-	char ch = 'a';
-	void print_alphabet(void) {
-	  for( ; ch <= 'z'; ch++) {
-	    _putchar(ch);
-	  }
+	char ch = c;
+
+	for ( ; ch <= 'z'; ch++)
+	{
+		_putchar(ch);
 	}
 }

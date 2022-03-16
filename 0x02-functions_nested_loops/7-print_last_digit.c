@@ -1,22 +1,25 @@
 #include "main.h"
 /**
- * main - check the code
+ * print_last_digit - check the code
  * @c: value to be checked
  * Return: Always 0.
  */
 
 int print_last_digit(int c)
-{	
-	if (c > 0)
-	{
-	return (c % 10);
-}
-	else if (c < 0)
 {
-	return (-1 * (c % 10));
+	int last_digit;
+
+	if (c > 0)
+{
+	last_digit = c % 10;
+	_putchar(last_digit + '0');
+	return (last_digit);
 }
 	else
 {
-	return (c);
+	last_digit = (-1 * (c % 10));
+	_putchar('0' + last_digit);
+	return (last_digit);
+
 }
 }

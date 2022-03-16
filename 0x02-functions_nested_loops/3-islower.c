@@ -1,10 +1,9 @@
 #include "main.h"
 
 /**
-* _islower - Shore description, single line
-* @c: parameter to be checked
-* Return - on Success 1
-* on error, -1 is returned amd errno is set appropriately
+* _islower - checks for lowercase character.
+* @c: character c to be checked
+* Return - Always 0.
 */
 
 int _islower(int c)

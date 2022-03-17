@@ -1,5 +1,5 @@
 #include "main.h"
-/*
+/**
 * mul - returns the multiplication of two integers
 * @a: The first integer
 * @b: The second integer

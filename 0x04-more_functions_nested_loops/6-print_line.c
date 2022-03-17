@@ -1,7 +1,7 @@
 #include "main.h"
 /**
 * print_line - print line in terminal
-* @c: integer argument
+* @n: integer argument
 * Return: Always 0.
 */
 

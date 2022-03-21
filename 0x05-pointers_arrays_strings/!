@@ -1,0 +1,17 @@
+#include "main.h"
+/**
+* *_strcpy - copy a string to a buffer
+* @dest: first parameter
+* @src: second parameter
+* Return: character
+*/
+
+char *_strcpy(char *dest, char *src)
+{
+	int i;
+
+	for (i = 0; src[i] != '\0'; i++)
+{
+	dest[i] = src[i];
+}
+}

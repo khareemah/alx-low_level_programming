@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
-* main: main function entry point
-* Description: Get a random number and check its last digit, compare it with 5
+* main -  main function entry point
+* Description: prints characters except q and e
 * Return: 0
 */
 

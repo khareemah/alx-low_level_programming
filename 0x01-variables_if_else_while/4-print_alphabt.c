@@ -7,7 +7,7 @@
 
 int main(void)
 {
-	char alpha[] = "abcdefghijklmonpqrstuvwxyz";
+	char alpha[] = "abcdefghijklmnopqrstuvwxyz";
 	int i = 0;
 
 	for (i = 0; alpha[i] != '\0'; i++)
@@ -18,6 +18,6 @@ int main(void)
 }
 	putchar(alpha[i]);
 }
-	return (0);
 	putchar('\n');
+	return (0);
 }

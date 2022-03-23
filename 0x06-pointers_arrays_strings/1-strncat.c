@@ -1,24 +1,21 @@
 #include "main.h"
 /**
-* _strcat -  concatenates two strings
-* @dest: destination string
-* @src: source string
+* _strncat - concatenates two strings
+* @dest: destination argument
+* @src: source argument
+* @n: most n byte from source
 * Return: a string
 */
 
-char *_strcat(char *dest, char *src)
+char *_strncat(char *dest, char *src, int n)
 {
 	int l1 = 0;
-	int l2 = 0;
+	int l2 = n;
 	int i = 0;
 
 	while (dest[l1] != '\0')
 {
 	l1++;
-}
-	while (src[l2] != '\0')
-{
-	l2++;
 }
 	for (i = 0; i < l2; i++)
 {
@@ -26,3 +23,4 @@ char *_strcat(char *dest, char *src)
 }
 	return (dest);
 }
+

@@ -2,8 +2,8 @@
 /**
  * _isalpha - Return 1 if c is a letter. lowercase or uppercase
  *
- *@c: The int to print
- * Return: Always 0.
+ *@c: The character to be checked
+ * Return: 0 or 1.
  */
 
 int _isalpha(int c)

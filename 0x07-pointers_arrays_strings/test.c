@@ -1,19 +1,19 @@
 #include <stdio.h>
 
-int main() {
-    // Write C code here
-    printf("enter integer:");
-    int i, a[3], total = 0;
-    
-    for(i = 0; i < 3; i++)
+int main(void) {
+	int i, j;
+
+	for (i = 0; i <= 23; i++)
 {
-    scanf("%d", &a[i]);
+	for (j = 0; j <= 59; j++)
+{
+	putchar(i + '0');
+	putchar(i + '0');
+	putchar(':');
+	putchar(i + '0');
+	putchar(j + '0');
+	putchar('\n');
 }
-    for(i = 2; i >= 0; i--)
-{
-	total += a[i];
 }
 	
-    printf("%d\n", total / 3);
-    return 0;
 }

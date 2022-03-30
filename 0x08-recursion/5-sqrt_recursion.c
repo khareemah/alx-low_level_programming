@@ -8,6 +8,10 @@
  */
 int helper(int n, int guess)
 {
+	if (guess * guess > n)
+{
+	return (-1);
+}
 	if (guess * guess == n)
 {
 	return (guess);
@@ -16,10 +20,6 @@ int helper(int n, int guess)
 {
 	guess++;
 	return (helper(n, guess));
-}
-	if (guess * guess > n)
-{
-	return (-1);
 }
 }
 

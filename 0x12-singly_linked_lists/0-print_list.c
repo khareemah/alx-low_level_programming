@@ -9,7 +9,7 @@
 
 size_t print_list(const list_t *h)
 {
-	long unsigned int counter = 0;
+	size_t counter = 0;
 
 	if (h->str == NULL)
 	{

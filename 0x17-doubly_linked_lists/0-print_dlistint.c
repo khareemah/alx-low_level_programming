@@ -1,5 +1,4 @@
 #include "lists.h"
-#include <stdio.h>
 
 /**
 * print_dlistint - print elements of linked list

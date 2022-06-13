@@ -2,7 +2,7 @@
 
 /**
 * _isalpha - checks if a integer corresponds to an alphabet
-* @c - integer ti check
+* @c: integer to check
 * Return: 0 or 1
 */
 

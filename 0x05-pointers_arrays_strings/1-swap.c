@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - check the code
+ * swap_int - check the code
  * @a: first integer
  * @b: second integer
  * Return: nothing.

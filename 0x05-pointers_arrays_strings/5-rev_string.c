@@ -5,21 +5,22 @@
  * @s: pointer to string
  * Return: nothing
  */
+int _strlen(char *s);
 
 void rev_string(char *s)
 {
-	int strlen, temp, i;
+	int i, len;
+	char temp;
 
-	strlen = _strlen(s);
+	len = _strlen(s);
 
-	for (i = 0; i < strlen / 2; i++)
+	for (i = 0; i < len / 2; i++)
 	{
-		temp = *(s + i);
-		*(s + i) = *(s + strlen - i - 1);
-		*(s + stren - i - 1) = temp;
+		temp = s[i];
+		s[i] = s[len - 1 - i];
+		s[len - 1 - i] = temp;
 	}
 }
-
 
 /**
  * _strlen - returns the length of a string

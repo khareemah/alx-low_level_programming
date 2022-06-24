@@ -18,6 +18,11 @@ int main(void)
    */
   *(p + 5) = 98;
   /* ...so that this prints 98\n */
+  a[0] = 0, a[1] = 1, a[3] = 3;
+  printf("%d\n", *(p +0));
+  printf("%d\n", *(p + 1));
+  printf("%d\n", *(p + 2));
+  printf("%d\n", *(p + 3));
   printf("a[2] = %d\n", a[2]);
   return (0);
 }

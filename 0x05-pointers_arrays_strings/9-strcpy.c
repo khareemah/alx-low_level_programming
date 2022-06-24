@@ -22,13 +22,19 @@ char *_strcpy(char *dest, char *src)
 	/**
 	* while (src[i] != '\0')
 	* {
-	* 	dest[i] = src[i];
-	* 	i++;
+	*	dest[i] = src[i];
+	*	i++;
 	* }
 	* dest[i] = '\0';
 	*/
 	return (dest);
 }
+
+/**
+* _strlen - return length of string
+* @s: string
+* Return: length of string
+*/
 
 int _strlen(char *s)
 {

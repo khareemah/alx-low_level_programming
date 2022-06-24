@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
 * leet - encodes character
 * @s: string parameter
@@ -14,6 +15,7 @@ char *leet(char *s)
 	char n[] = "43071";
 
 	for (i = 0; s[i] != '\0'; i++)
+	printf("%d", i)
 	for (j = 0; j < 5; j++)
 {
 	if (s[i] == lc[j] || s[i] == up[j])
